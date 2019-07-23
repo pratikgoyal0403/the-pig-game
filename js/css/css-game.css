@@ -1,0 +1,107 @@
+body{
+    margin:0rem;
+    padding:0rem;
+    font-size: 10px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.main-body{
+    background-color: gray;
+    height:100vh;
+    width: 100%;
+    position:relative;
+}
+.row{
+    
+    max-width: 700px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    clear:both;
+    text-align: center;
+    
+}
+.row-1-2{
+    background-color:lightgrey;
+    width:300px;
+    float:left;
+    padding:15px;
+    padding-top:60px;
+    padding-bottom:100px;
+    
+}
+.row-2-2{
+    background-color: rgba(255, 255, 255, 0.884);
+    width:300px;
+    float:right;
+    padding:15px;
+    padding-top:60px;
+    padding-bottom:100px;
+}
+.name-0,
+.name-1{
+    font-size: 28px;
+    letter-spacing: 1.7%;
+}
+.score-0,
+.score-1{
+    font-size: 72px;
+    margin-top:13px;
+}
+
+.btn1{
+    position: absolute;
+    left:47%;
+    top:23%;
+    font-size:16px;
+    color:red;
+
+}
+.current-0,
+.current-1{
+    display:inline-block;
+    margin-top:80px;
+    background-color: red;
+    border:2px solid red;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:7px;
+    padding-bottom:7px;
+}
+span{
+    font-size: 20px;
+    color:white;
+    display:block;
+    margin-top:5px;
+}
+.dice-roll{
+    position: absolute;
+    left:47%;
+    top:60%;
+    font-size:17px;
+    color:red;
+}
+.hold{
+
+    position: absolute;
+    left:48%;
+    top:68%;
+    font-size:17px;
+    color:red;
+}
+.rules{
+
+    position: absolute;
+    left:48%;
+    top:78%;
+    font-size:17px;
+    color:red;
+}
+.dice-image{
+    position:absolute;
+    left:46.5%;
+    top:39%;
+    width:7%;
+
+}

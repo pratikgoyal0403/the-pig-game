@@ -1,0 +1,30 @@
+html{
+    font-size:10px;
+}
+body{
+    background-color: gray;
+    margin:0px;
+    padding:0px;
+}
+.card{
+    max-width:700px;
+    background-color:white;
+    text-align:center;
+    padding:20px;
+    position:absolute;
+    top:50%;
+    left:45%;
+    transform: translate(-50%,-50%);
+    
+}
+.heading{
+    text-transform: uppercase;
+    text-decoration:underline;
+    font-size: 32px;
+}
+.rules{
+    margin-top:20px;
+    font-size:24px;
+    text-align: justify;
+    line-height: 150%;
+}
